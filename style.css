@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --primary: #0d0d3a;
+  --secondary: #000020;
+  --tersiary: #cc43ff;
+  --txtPrim: #f9f9f9;
+  --txtSec: #b3b3b3;
+  --txtTers: #595959;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* <============ HEADER START============> */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 15px 250px 40px;
+}
+
+.navigasi {
+  display: flex;
+}
+
+.navigasi a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: var(--txtTers);
+  font-weight: 600;
+  font-size: 20px;
+}
+/* <============ HEADER END ============> */
+
+/* <============ HOME PAGE ============> */
+/* ====== HERO ====== */
+.home {
+  padding: 0px 250px;
+  background-color: var(--primary);
+}
+
+.sect1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  width: 650px;
+  height: 300px;
+}
+
+.greet {
+  padding: 10px 0px;
+  color: var(--tersiary);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.greetDesc {
+  padding: 10px 0px;
+  color: var(--txtPrim);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.9;
+}
+/* ====== HERO ====== */
+
+/* ====== SPECIALITIES ====== */
+.homeTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--tersiary);
+  padding-bottom: 20px;
+}
+
+.sect2,
+.sect3 {
+  padding: 80px 0px;
+}
+.cardWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  height: 180px;
+  background-color: var(--secondary);
+  padding: 40px;
+}
+.cardTitle {
+  color: var(--txtPrim);
+  width: 300px;
+  padding: 5px 0px;
+  font-size: 20px;
+}
+.cardDesc {
+  color: var(--txtSec);
+  height: 100px;
+  width: 300px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/* ====== SPECIALITIES ====== */
+
+/* ====== PROJECTS ====== */
+
+.card2 {
+  width: 380px;
+  height: 260px;
+  background-color: var(--secondary);
+  padding-bottom: 40px;
+}
+
+.imgTitle {
+  color: var(--txtPrim);
+  padding: 10px 0px 0px 25px;
+  font-size: 20px;
+}
+
+.imgDesc {
+  color: var(--txtSec);
+  font-size: 16px;
+  padding: 5px 25px;
+}
+/* ====== PROJECTS ====== */
+/* <============ HOME PAGE ============> */
+
+/* <============ EXPERIENCE PAGE ============> */
+.expSect,
+.aboutSect {
+  background-color: var(--primary);
+  padding: 90px 300px 200px;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--tersiary);
+  padding-bottom: 20px;
+}
+/* <============ EXPERIENCE PAGE ============> */
+
+/* <============ PROJECTS PAGE ============> */
+.projectSect {
+  background-color: var(--primary);
+  padding: 90px 250px 200px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--tersiary);
+}
+.sub {
+  color: var(--txtSec);
+  font-size: 16px;
+  padding: 5px 0px 30px 0px;
+}
+.cardWrapGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 30px;
+}
+.cardGrid {
+  width: 380px;
+  height: 260px;
+  background-color: var(--secondary);
+  padding-bottom: 40px;
+}
+/* <============ PROJECTS PAGE ============> */
+
+/* <============ ABOUT PAGE ============> */
+.aboutMe,
+.interests {
+  margin-bottom: 120px;
+}
+
+.aboutDesc {
+  font-size: 20px;
+  color: var(--txtPrim);
+  line-height: 1.9;
+}
+/* <============ ABOUT PAGE ============> */
+
+/* <============ FOOTER ============> */
+footer {
+  background-color: var(--secondary);
+  padding: 50px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.toTopWrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.backToTop {
+  padding-right: 15px;
+  font-size: 20px;
+  color: var(--txtPrim);
+}
+.l1 {
+  margin-bottom: 10px;
+  color: var(--txtPrim);
+  font-size: 24px;
+  font-weight: 600;
+}
+.l2 {
+  color: var(--txtSec);
+  font-size: 16px;
+}
+.icon img {
+  padding: 0px 5px;
+}
+/* <============ FOOTER ============> */
